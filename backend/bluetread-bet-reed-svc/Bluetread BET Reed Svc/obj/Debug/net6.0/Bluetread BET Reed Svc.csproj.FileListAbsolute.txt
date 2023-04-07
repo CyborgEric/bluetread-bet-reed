@@ -1,0 +1,32 @@
+C:\dev\bluetread-bet-reed\backend\bluetread-bet-reed-svc\Bluetread BET Reed Svc\obj\Debug\net6.0\Bluetread BET Reed Svc.csproj.AssemblyReference.cache
+C:\dev\bluetread-bet-reed\backend\bluetread-bet-reed-svc\Bluetread BET Reed Svc\obj\Debug\net6.0\Bluetread BET Reed Svc.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\bluetread-bet-reed\backend\bluetread-bet-reed-svc\Bluetread BET Reed Svc\obj\Debug\net6.0\Bluetread BET Reed Svc.AssemblyInfoInputs.cache
+C:\dev\bluetread-bet-reed\backend\bluetread-bet-reed-svc\Bluetread BET Reed Svc\obj\Debug\net6.0\Bluetread BET Reed Svc.AssemblyInfo.cs
+C:\dev\bluetread-bet-reed\backend\bluetread-bet-reed-svc\Bluetread BET Reed Svc\obj\Debug\net6.0\Bluetread BET Reed Svc.csproj.CoreCompileInputs.cache
+C:\dev\bluetread-bet-reed\backend\bluetread-bet-reed-svc\Bluetread BET Reed Svc\obj\Debug\net6.0\Bluetread BET Reed Svc.MvcApplicationPartsAssemblyInfo.cs
+C:\dev\bluetread-bet-reed\backend\bluetread-bet-reed-svc\Bluetread BET Reed Svc\obj\Debug\net6.0\Bluetread BET Reed Svc.MvcApplicationPartsAssemblyInfo.cache
+C:\dev\bluetread-bet-reed\backend\bluetread-bet-reed-svc\Bluetread BET Reed Svc\bin\Debug\net6.0\appsettings.Development.json
+C:\dev\bluetread-bet-reed\backend\bluetread-bet-reed-svc\Bluetread BET Reed Svc\bin\Debug\net6.0\appsettings.json
+C:\dev\bluetread-bet-reed\backend\bluetread-bet-reed-svc\Bluetread BET Reed Svc\bin\Debug\net6.0\Bluetread BET Reed Svc.exe
+C:\dev\bluetread-bet-reed\backend\bluetread-bet-reed-svc\Bluetread BET Reed Svc\bin\Debug\net6.0\Bluetread BET Reed Svc.deps.json
+C:\dev\bluetread-bet-reed\backend\bluetread-bet-reed-svc\Bluetread BET Reed Svc\bin\Debug\net6.0\Bluetread BET Reed Svc.runtimeconfig.json
+C:\dev\bluetread-bet-reed\backend\bluetread-bet-reed-svc\Bluetread BET Reed Svc\bin\Debug\net6.0\Bluetread BET Reed Svc.dll
+C:\dev\bluetread-bet-reed\backend\bluetread-bet-reed-svc\Bluetread BET Reed Svc\bin\Debug\net6.0\Bluetread BET Reed Svc.pdb
+C:\dev\bluetread-bet-reed\backend\bluetread-bet-reed-svc\Bluetread BET Reed Svc\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\dev\bluetread-bet-reed\backend\bluetread-bet-reed-svc\Bluetread BET Reed Svc\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\dev\bluetread-bet-reed\backend\bluetread-bet-reed-svc\Bluetread BET Reed Svc\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\dev\bluetread-bet-reed\backend\bluetread-bet-reed-svc\Bluetread BET Reed Svc\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\dev\bluetread-bet-reed\backend\bluetread-bet-reed-svc\Bluetread BET Reed Svc\obj\Debug\net6.0\staticwebassets\msbuild.Bluetread BET Reed Svc.Microsoft.AspNetCore.StaticWebAssets.props
+C:\dev\bluetread-bet-reed\backend\bluetread-bet-reed-svc\Bluetread BET Reed Svc\obj\Debug\net6.0\staticwebassets\msbuild.build.Bluetread BET Reed Svc.props
+C:\dev\bluetread-bet-reed\backend\bluetread-bet-reed-svc\Bluetread BET Reed Svc\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Bluetread BET Reed Svc.props
+C:\dev\bluetread-bet-reed\backend\bluetread-bet-reed-svc\Bluetread BET Reed Svc\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Bluetread BET Reed Svc.props
+C:\dev\bluetread-bet-reed\backend\bluetread-bet-reed-svc\Bluetread BET Reed Svc\obj\Debug\net6.0\staticwebassets.pack.json
+C:\dev\bluetread-bet-reed\backend\bluetread-bet-reed-svc\Bluetread BET Reed Svc\obj\Debug\net6.0\staticwebassets.build.json
+C:\dev\bluetread-bet-reed\backend\bluetread-bet-reed-svc\Bluetread BET Reed Svc\obj\Debug\net6.0\staticwebassets.development.json
+C:\dev\bluetread-bet-reed\backend\bluetread-bet-reed-svc\Bluetread BET Reed Svc\obj\Debug\net6.0\scopedcss\bundle\Bluetread BET Reed Svc.styles.css
+C:\dev\bluetread-bet-reed\backend\bluetread-bet-reed-svc\Bluetread BET Reed Svc\obj\Debug\net6.0\Bluetread BET Reed Svc.csproj.CopyComplete
+C:\dev\bluetread-bet-reed\backend\bluetread-bet-reed-svc\Bluetread BET Reed Svc\obj\Debug\net6.0\Bluetread BET Reed Svc.dll
+C:\dev\bluetread-bet-reed\backend\bluetread-bet-reed-svc\Bluetread BET Reed Svc\obj\Debug\net6.0\refint\Bluetread BET Reed Svc.dll
+C:\dev\bluetread-bet-reed\backend\bluetread-bet-reed-svc\Bluetread BET Reed Svc\obj\Debug\net6.0\Bluetread BET Reed Svc.pdb
+C:\dev\bluetread-bet-reed\backend\bluetread-bet-reed-svc\Bluetread BET Reed Svc\obj\Debug\net6.0\Bluetread BET Reed Svc.genruntimeconfig.cache
+C:\dev\bluetread-bet-reed\backend\bluetread-bet-reed-svc\Bluetread BET Reed Svc\obj\Debug\net6.0\ref\Bluetread BET Reed Svc.dll

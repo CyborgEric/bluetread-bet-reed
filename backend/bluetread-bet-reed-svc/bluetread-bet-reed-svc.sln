@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bluetread BET Reed Svc", "Bluetread BET Reed Svc\Bluetread BET Reed Svc.csproj", "{D60C443B-990B-4EEB-94B5-939AE89FA5B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluetread BET Reed Svc", "Bluetread BET Reed Svc\Bluetread BET Reed Svc.csproj", "{D60C443B-990B-4EEB-94B5-939AE89FA5B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{208C14EF-2D58-4DA3-B53F-EBD6C3A87158}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{D60C443B-990B-4EEB-94B5-939AE89FA5B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D60C443B-990B-4EEB-94B5-939AE89FA5B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D60C443B-990B-4EEB-94B5-939AE89FA5B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{208C14EF-2D58-4DA3-B53F-EBD6C3A87158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{208C14EF-2D58-4DA3-B53F-EBD6C3A87158}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{208C14EF-2D58-4DA3-B53F-EBD6C3A87158}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{208C14EF-2D58-4DA3-B53F-EBD6C3A87158}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

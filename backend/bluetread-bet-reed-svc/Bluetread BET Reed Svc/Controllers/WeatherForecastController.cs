@@ -1,4 +1,7 @@
+using Bluetread_BET_Reed_Svc.Controllers.Shared;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
+using static System.Net.WebRequestMethods;
 
 namespace Bluetread_BET_Reed_Svc.Controllers
 {
@@ -6,28 +9,41 @@ namespace Bluetread_BET_Reed_Svc.Controllers
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
-        private static readonly string[] Summaries = new[]
-        {
-        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-    };
-
         private readonly ILogger<WeatherForecastController> _logger;
+
+        public HttpClient httpClient;
+
+
+        //Without a doubt needs to be in appsettings
+        private string apiKey = "ad2c6666121b455fbcf03114230704";
+
 
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {
             _logger = logger;
+            httpClient = new HttpClient();
         }
 
-        [HttpGet(Name = "GetWeatherForecast")]
-        public IEnumerable<WeatherForecast> Get()
+
+
+        [HttpPost(Name = "GetWeatherForecast")]
+        public async Task<GetForecastOutputDto> GetForecast(GetForecastInputDto input)
         {
-            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
-            {
-                Date = DateTime.Now.AddDays(index),
-                TemperatureC = Random.Shared.Next(-20, 55),
-                Summary = Summaries[Random.Shared.Next(Summaries.Length)]
-            })
-            .ToArray();
+            var output = new GetForecastOutputDto();
+
+            var requestString = 
+                "https://api.weatherapi.com/v1/current.json?key=" + apiKey  + 
+                "&q=" + input.City +  
+                "&days=" + input.Days + 
+                "&aqi=no";
+
+
+            var forecastRes = await httpClient.GetFromJsonAsync<ForecastDto>(requestString);
+
+            output.Forecast = forecastRes;
+            output.CreatedAt = DateTime.UtcNow;
+
+            return output;
         }
     }
 }

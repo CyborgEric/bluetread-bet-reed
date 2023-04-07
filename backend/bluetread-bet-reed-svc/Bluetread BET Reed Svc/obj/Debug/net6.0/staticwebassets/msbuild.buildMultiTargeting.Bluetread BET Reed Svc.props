@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Bluetread BET Reed Svc.props" />
+</Project>
