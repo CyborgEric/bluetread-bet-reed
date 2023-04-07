@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "fqvFjUkr5ncau9QJAexqhf4XC4mrl+P2RC+ql/qUHUcycqfAi8UEHvaRgZ5SvRdtransQUaj8e+OhdUYQBPmhQ==",
+  "success": true,
+  "projectFilePath": "C:\\dev\\bluetread-bet-reed\\backend\\bluetread-bet-reed-svc\\Bluetread BET Reed Svc\\Bluetread BET Reed Svc.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Eric-Surface\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Eric-Surface\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Eric-Surface\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\Eric-Surface\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\Eric-Surface\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\Eric-Surface\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
