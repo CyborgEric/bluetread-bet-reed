@@ -2,7 +2,7 @@
 {
     public class GetForecastOutputDto
     {
-        public ForecastDto Forecast { get; set; }   
+        public WeatherDto Weather { get; set; }   
         public DateTime CreatedAt { get; set; }
     }
 }

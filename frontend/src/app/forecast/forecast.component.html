@@ -1,0 +1,27 @@
+<div>
+    <label for="citySelect">Select a city:</label>
+    <select id="citySelect" (change)="onCityChange($event)">
+      <option *ngFor="let city of cities">{{ city }}</option>
+    </select>
+
+  <div *ngIf="cityForecast">
+    <h2>{{ cityForecast?.weather?.location?.name }} Weather</h2>
+    <p>{{ cityForecast?.weather?.current?.condition?.text }}</p>
+    <p>Temperature: {{ cityForecast?.weather?.current?.tempC }} °C</p>
+    <p>Wind: {{ cityForecast?.weather?.current?.windKph }} km/h from {{ cityForecast?.weather?.current?.windDir }}</p>
+    <p>Humidity: {{ cityForecast?.weather?.current?.humidity }}%</p>
+  </div>
+  <div class="day" *ngFor="let forecastday of cityForecast?.weather?.forecast?.forecastday?.slice((currentPage-1)*itemsPerPage, currentPage*itemsPerPage);let indexOfelement=index">
+    <!-- Your forecastday HTML here -->
+    Day: {{indexOfelement + (currentPage * itemsPerPage) - itemsPerPage + 1}}<br>
+    Max Temp: {{forecastday?.day?.maxtemp_f}}°F<br>
+    Min Temp: {{forecastday?.day?.mintemp_f}}°F<br>
+    <hr>
+
+  </div>
+    <!-- <button (click)="currentPage = currentPage-1">Previous</button> -->
+    <!-- <button (click)="currentPage = currentPage+1">Next</button> -->
+    <button class="prevButton" [disabled]="currentPage == 1" (click)="currentPage = currentPage-1">Previous</button>
+    <button [disabled]="mayMoveForward()" (click)="currentPage = currentPage+1">Next</button>
+
+</div>

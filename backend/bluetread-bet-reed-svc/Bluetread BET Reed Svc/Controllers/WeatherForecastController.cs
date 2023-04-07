@@ -32,15 +32,15 @@ namespace Bluetread_BET_Reed_Svc.Controllers
             var output = new GetForecastOutputDto();
 
             var requestString = 
-                "https://api.weatherapi.com/v1/current.json?key=" + apiKey  + 
+                "https://api.weatherapi.com/v1/forecast.json?key=" + apiKey  + 
                 "&q=" + input.City +  
                 "&days=" + input.Days + 
                 "&aqi=no";
 
 
-            var forecastRes = await httpClient.GetFromJsonAsync<ForecastDto>(requestString);
+            var forecastRes = await httpClient.GetFromJsonAsync<WeatherDto>(requestString);
 
-            output.Forecast = forecastRes;
+            output.Weather = forecastRes;
             output.CreatedAt = DateTime.UtcNow;
 
             return output;

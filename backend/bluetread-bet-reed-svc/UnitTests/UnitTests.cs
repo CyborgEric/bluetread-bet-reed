@@ -27,7 +27,7 @@ namespace UnitTests
 
             var output = await controller.GetForecast(input);
 
-            bool result = output.Forecast.Location.Name.Equals("Tampa");
+            bool result = output.Weather.Location.Name.Equals("Tampa");
 
             Assert.True(result, "City Should Be Tampa");
         }
@@ -45,7 +45,7 @@ namespace UnitTests
 
             var output = await controller.GetForecast(input);
 
-            bool result = output.Forecast.Current.Last_Updated != null;
+            bool result = output.Weather.Current.LastUpdated != null;
 
             Assert.True(result, "Should Have Current Forecast");
         }
