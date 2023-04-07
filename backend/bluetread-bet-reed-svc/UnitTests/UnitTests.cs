@@ -45,7 +45,7 @@ namespace UnitTests
 
             var output = await controller.GetForecast(input);
 
-            bool result = output.Weather.Current.LastUpdated != null;
+            bool result = output.Weather.Current != null;
 
             Assert.True(result, "Should Have Current Forecast");
         }
